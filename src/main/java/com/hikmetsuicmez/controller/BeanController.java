@@ -21,17 +21,13 @@ public class BeanController {
         return beanConfig.beanDto()+"";
     }
 
-    @Autowired
-    Logger LOG;
 
-    @PostConstruct
-    public void init() {
-        LOG.info("Log info cağrıldı.");
-    }
 
-    public static void main(String[] args) {
-        BeanController beanController = new BeanController();
-        System.out.println(beanController);
-    }
+
+
+//    public static void main(String[] args) {
+//        BeanController beanController = new BeanController();
+//        System.out.println(beanController);
+//    }
 
 }
